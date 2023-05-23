@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5">
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/et_adjective"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -54,7 +54,7 @@
             android:text="Adjective" />
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/et_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -62,7 +62,7 @@
             android:text="Color" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/et_vehicle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -70,7 +70,7 @@
             android:text="Vehicle" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/et_adjective2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -78,7 +78,7 @@
             android:text="Adjective 2" />
 
         <EditText
-            android:id="@+id/editTextText8"
+            android:id="@+id/et_color2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -86,7 +86,7 @@
             android:text="Color 2" />
 
         <EditText
-            android:id="@+id/editTextText10"
+            android:id="@+id/et_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -94,7 +94,7 @@
             android:text="Number" />
 
         <EditText
-            android:id="@+id/editTextText11"
+            android:id="@+id/et_fruit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -102,7 +102,7 @@
             android:text="Fruit" />
 
         <EditText
-            android:id="@+id/editTextText12"
+            android:id="@+id/et_bodyPart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -110,7 +110,7 @@
             android:text="Body Part" />
 
         <EditText
-            android:id="@+id/editTextText13"
+            android:id="@+id/et_fruit2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -118,12 +118,18 @@
             android:text="Fruit 2" />
 
         <EditText
-            android:id="@+id/editTextText14"
+            android:id="@+id/et_place"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
             android:text="Place" />
+
+        <Button
+            android:id="@+id/btn_generate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Mad Lib" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
