@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
     private EditText etColor1;
     private EditText etVehicle;
     private EditText etAdj2;
-    private EditText Color2;
-    private EditText Number;
-    private EditText Fruit;
-    private EditText Body_Part;
-    private EditText Fruit2;
-    private EditText Place;
+    private EditText etColor2;
+    private EditText etNumber;
+    private EditText etFruit;
+    private EditText etBody_Part;
+    private EditText etFruit2;
+    private EditText etPlace;
 
 
 
@@ -58,14 +58,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String story = "";
-                story += "\nI am very " + etAdj1.getText() + " today";
-                story += "\nMy hair is " + etColor1.getText();
-                story += "\nyadayadayda";
-                story += "\nyadayadayda";
-                story += "\nyadayadayda";
-                story += "\nyadayadayda";
-                story += "\nyadayadayda";
-                story += "\nyadayadayda";
+                story += "\nAfter a " + etAdj1.getText() + " day at school you get in your car and start driving home when a  " + etColor1.getText()+ " " + etVehicle.getText() + " " + "crashes into you at a red light!";
+                story += " Now after having to deal with a " + etAdj2.getText() + " man you eventually make it home.";
+                story += " You put on your " + etColor2.getText() + " Joe's shirt and get ready to leave for work.";
+                story += " You show up " + etNumber.getText() + " minutes early because you love your job.";
+                story += " You check the ice cream flavors for today and realize " + etFruit.getText() + " is the flavor of the day.";
+                story += " You head inside, clock in, and get started helping customers.";
+                story += " As you're scooping ice you slip, fall, and hit your " + etBody_Part.getText() + " on a sharp object and it comes off completely.";
+                story += " As everyone is searching for your lost " + etBody_Part.getText() + " your manager finds it in the " + etFruit2.getText() + " ice cream that we just finished serving to the customer.";
+                story += " You see your " + etBody_Part.getText() + " and immediately faint.";
+                story += " When you wake up you realize that you are at " + etPlace.getText() + ", so you reach for your " + etBody_Part.getText() + " and realize it was all a dream";
 
                 intentDisplay.putExtra("story",story);
 

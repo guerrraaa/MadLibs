@@ -6,21 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="JOES!"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="42dp" />
+        app:layout_constraintGuide_begin="206dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
@@ -34,9 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="339dp" />
+        app:layout_constraintGuide_begin="370dp" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -50,86 +42,98 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Adjective" />
+            android:hint="Adjective to describe your day"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Color" />
+            android:hint="Color"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_vehicle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Vehicle" />
+            android:hint="Vehicle"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_adjective2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Adjective 2" />
+            android:hint="Adjective to describe sum1 u dont like"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_color2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Color 2" />
+            android:hint="Color "
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Number" />
+            android:hint="Number between 1 and 60"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_fruit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Fruit" />
+            android:hint="Fruit"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_bodyPart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Body Part" />
+            android:hint="Body Part"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_fruit2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Fruit 2" />
+            android:hint="Fruit "
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_place"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Place" />
+            android:hint="Place"
+            android:inputType="text" />
 
         <Button
             android:id="@+id/btn_generate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Generate Mad Lib" />
+            android:text="Start my day at Joes🍦" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307"
+        app:srcCompat="@drawable/joe_ice" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
