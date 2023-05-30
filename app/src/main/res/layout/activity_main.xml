@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -11,27 +12,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="206dp" />
+        app:layout_constraintGuide_percent="0.28180575" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="45dp" />
+        app:layout_constraintGuide_percent="0.10948905" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="370dp" />
+        app:layout_constraintGuide_percent="0.9026764" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
@@ -43,6 +45,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Adjective to describe your day"
+            android:textColorHint="@color/text"
             android:inputType="text" />
 
         <EditText
@@ -51,6 +54,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Color"
+            android:textColorHint="@color/text"
             android:inputType="text" />
 
         <EditText
@@ -59,6 +63,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Vehicle"
+            android:textColorHint="@color/text"
             android:inputType="text" />
 
         <EditText
@@ -66,6 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/text"
             android:hint="Adjective to describe sum1 u dont like"
             android:inputType="text" />
 
@@ -74,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/text"
             android:hint="Color "
             android:inputType="text" />
 
@@ -82,6 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/text"
             android:hint="Number between 1 and 60"
             android:inputType="text" />
 
@@ -90,6 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/text"
             android:hint="Fruit"
             android:inputType="text" />
 
@@ -98,6 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/text"
             android:hint="Body Part"
             android:inputType="text" />
 
@@ -107,6 +117,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Fruit "
+            android:textColorHint="@color/text"
             android:inputType="text" />
 
         <EditText
@@ -114,6 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/text"
             android:hint="Place"
             android:inputType="text" />
 
